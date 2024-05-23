@@ -1,0 +1,116 @@
+main{
+    background-color: whitesmoke;
+    padding: 20px 0;
+}
+
+.esterno-main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px 15.3vw;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.esterno-main label {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.esterno-main form a{
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 20px 0;
+}
+
+.esterno-main input{
+    display: flex;
+    margin-left: 1em;
+    height: auto;
+    border-color: #adb390;
+}
+
+.esterno-main input:focus{
+    outline: none !important;
+    border: 3px solid #9cb026;
+    margin-left: 0.8em;
+}
+
+#login form {   
+    border-bottom: 1px solid whitesmoke; 
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#signup form{
+    border-top: 1px solid whitesmoke;
+    margin-top: 20px;
+}
+
+#registrati{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.bottone{
+    height: auto;
+    text-align: center;
+    width: auto;
+    background-color:#819221;
+    color: white;
+    padding: 10px 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+input.bottone{
+    margin: 0px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.esterno-main input.bottone:focus{
+    outline: none !important;
+    border: 1px;
+    margin: auto;
+}
+
+.login-signup{
+    font-weight: 600;
+}
+
+.errore {
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    font-size: 1rem;    
+}
+
+#blocco-errori{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+@media (max-width: 500px){
+    .esterno-main{
+        margin: 0 1.5rem;
+    }
+
+    input{
+        width: 14rem;
+    }
+}
+
+
