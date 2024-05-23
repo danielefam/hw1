@@ -1,6 +1,6 @@
 <?php
     
-    $api_key = "AIzaSyCglc_QZb0QEZxfu2AK_N8lXxKCgdv7b8g";
+    $api_key = "";
     $playlist = "UU_dUqIKuzCvsE_bg_5AYMrQ";
 
     $curl = curl_init();  
