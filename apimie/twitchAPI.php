@@ -1,7 +1,7 @@
 <?php
     if(isset($_POST["cerca_gioco"])){
-        $client_id = "mlu5adq2xr05aa8yta1dd5fs3m11tf";
-        $client_secret = "hijb6vk57pg6btye6fp16h36mx82np";
+        $client_id = "";
+        $client_secret = "";
 
         // token
         $curl = curl_init();
